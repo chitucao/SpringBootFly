@@ -3,7 +3,6 @@ package mydlq.club.example.controller;
 import mydlq.club.example.entity.UserInfo;
 import mydlq.club.example.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
 
 /**
  * 用户信息 Controller
