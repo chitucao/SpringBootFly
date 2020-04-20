@@ -1,0 +1,15 @@
+server:
+  port: 8202
+
+spring:
+  application:
+    name: dubbo-client
+
+dubbo:
+  application:
+    name: dubbo-client
+  registry:
+    protocol: zookeeper
+    address: zookeeper://10.0.0.101:2181
+
+

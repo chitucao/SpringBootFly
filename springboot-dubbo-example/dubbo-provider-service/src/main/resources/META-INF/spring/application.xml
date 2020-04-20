@@ -1,0 +1,29 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd        http://dubbo.apache.org/schema/dubbo        http://dubbo.apache.org/schema/dubbo/dubbo.xsd">-->
+
+<!--    &lt;!&ndash; 提供方应用信息，用于计算依赖关系 &ndash;&gt;-->
+<!--    <dubbo:application name="pay-service"/>-->
+
+<!--    <dubbo:registry id="rg1" address="zookeeper://192.168.13.106:2181"/>&lt;!&ndash;配置注册中心&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <dubbo:registry id="rg2" address="zookeeper://192.168.8.125:2181"/>&lt;!&ndash;配置注册中心&ndash;&gt;&ndash;&gt;-->
+
+<!--    <dubbo:protocol name="dubbo" port="20880"/>-->
+
+<!--    &lt;!&ndash;&ndash;&gt;-->
+<!--    <dubbo:protocol name="webservice" port="8080" server="jetty"/>-->
+
+<!--    <dubbo:protocol name="rest" port="8888" server="jetty"/>-->
+
+<!--    <dubbo:service interface="cn.chitucao.dubbo.provider.api.IPayService" ref="payService" protocol="rest" registry="rg1"/>-->
+
+<!--    <dubbo:service interface="com.gupaoedu.dubbo.IQueryService" ref="queryService" protocol="dubbo,webservice" registry="rg1"/>-->
+
+<!--    <bean id="payService" class="com.gupaoedu.dubbo.PayServiceImpl"/>-->
+
+<!--    <bean id="queryService" class="com.gupaoedu.dubbo.QueryServiceImpl"/>-->
+
+<!--</beans>-->

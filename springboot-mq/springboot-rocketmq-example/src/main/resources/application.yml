@@ -1,0 +1,2 @@
+rocketmq:
+  name-srv-addr: 10.0.0.101:9876
